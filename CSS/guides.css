@@ -30,8 +30,9 @@ h3 {text-align: left;}
 p { text-align: left;}
 li {text-align: left;}
 
-table {text-align: center; background-color: rgb(253, 116, 92); box-shadow: 5px 5px 5px black;}
-table td {padding: 20px; border: 2px solid white; width: 20%;}
+table {text-align: center; background-color: rgb(253, 116, 92); box-shadow: 5px 5px 5px black; table-layout: auto; width: auto; word-break: break-all;}
+table tr {width: auto;}
+table td {padding-top: 20px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; border: 2px solid white; width: auto;}
 table tr:first-child {text-decoration: underline white;}
 
 a {text-decoration: underline white; color: white;}
