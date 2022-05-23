@@ -5,7 +5,7 @@ section#banner {background-color: teal; border-radius: 20px; height: 90px; margi
 div.menu {color: rgb(255, 255, 255); padding-top: 15px; padding-left: 15px; width: auto;}
 div.menu a {text-decoration: none; color: white;}
 
-img {width: 400px; height: auto;}
+img {width: 350px; height: auto;}
 
 ul.icons {float: right; padding-left: auto; margin-top: -45px; padding-bottom: 30px; width: auto; height: auto;}
 ul.icons li {display: inline; width: auto; height: auto;}
