@@ -1,12 +1,12 @@
 body {background-color: white; font-family:verdana;}
 
-section#banner {background-color: teal; border-radius: 20px;}
+section#banner {background-color: teal; border-radius: 20px; height: 90px; margin-bottom: 15px;}
 
 div.menu {color: rgb(255, 255, 255); padding-top: 15px; padding-left: 15px;}
 div.menu a {text-decoration: none; color: white;}
 
-ul.icons {padding-left: 700px; margin-top: -45px; padding-bottom: 30px;}
-ul.icons li {display: inline;}
+ul.icons {float: right; padding-left: auto; margin-top: -45px; padding-bottom: 30px; width: auto; height: auto;}
+ul.icons li {display: inline; width: auto; height: auto;}
 
 ul.icons a {
     color: white;
@@ -17,20 +17,21 @@ ul.icons a {
     padding-bottom: 20px;
     border-radius: 45px;
     text-decoration: none;
+    margin: 5px;
   }
 
 ul.icons a:hover {background-color: rgb(253, 116, 92); transition: 0.4s ease; box-shadow: 5px 5px 5px black;}
 
 
 
-div.main {color: white; background-color: teal; border-radius: 20px; text-align: center; padding: 15px; width: auto; height: 860px;}
+div.main {color: white; background-color: teal; border-radius: 20px; text-align: center; padding: 15px; width: auto; height: 850px;}
 div.main p {box-shadow: 10px 10px 10px black; background-color: rgb(253, 116, 92); border-radius: 20px; padding: 15px; font-size: large; display: table; width: auto; height: auto;}
 div.main img { border-radius: 50%; margin-left: auto; margin-right: auto; padding: 15px; height: 300px; width: 250px;}
 
 div.main #p1 {float: left; width: 45%;}
-div.main #p2 {float: right; width: 50%;}
+div.main #p2 {float: right; width: 45%;}
 div.main #p3 {float: left; width: 45%}
-div.main #p4 {float: right; width: 50%;}
+div.main #p4 {float: right; width: 45%;}
 
 div.main p:hover { text-decoration: underline; }
 div.main a {text-decoration: none; color: white;}
