@@ -25,12 +25,13 @@ ul.icons a:hover {background-color: rgb(253, 116, 92); transition: 0.4s ease; bo
 
 
 div.main {color: white; background-color: teal; border-radius: 20px; text-align: center; padding: 15px; width: auto; height: auto;}
-div.main p {box-shadow: 10px 10px 10px black; background-color: rgb(253, 116, 92); border-radius: 20px; padding: 15px; font-size: large; width: 75%; height: auto; margin-left: 12%;}
-div.main img { border-radius: 50%; margin-left: auto; margin-right: auto; padding: 15px; height: 300px; width: 250px;}
+div.main p {box-shadow: 10px 10px 10px black; background-color: rgb(253, 116, 92); border-radius: 20px; padding: 15px; font-size: large; width: 75%; height: auto; margin-left: 12%; vertical-align: middle;}
+div.main img { border-radius: 50%; margin-left: auto; margin-right: auto; padding: 15px; height: 300px; width: 250px; vertical-align: middle;}
 
 
 div.main p:hover { text-decoration: underline; }
-div.main a {text-decoration: none; color: white;}
+div.main a {text-decoration: none; color: white;  margin-right: 100px;  padding: 10px;}
+div.main a:hover {background-color: teal; border-radius: 20px; box-shadow: 5px 5px 5px black}
 
 
 footer {color: white; 
