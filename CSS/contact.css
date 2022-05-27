@@ -38,6 +38,7 @@ ul.icons a:hover {background-color: rgb(253, 116, 92); transition: 0.4s ease; bo
 
 div.main {color: white; background-color: teal; border-radius: 20px; text-align: center; padding: 15px; width: auto; height: 860px;}
 
+div.main a {color: white;}
 
 footer {color: white; 
     text-align: center;
