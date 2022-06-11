@@ -34,6 +34,90 @@ div.main a {text-decoration: none; color: white;  margin-right: 100px;  padding:
 div.main a:hover {background-color: teal; border-radius: 20px; box-shadow: 5px 5px 5px black}
 
 
+
+#gallerywrapper {
+  width:auto;
+  height:450px;
+  margin:0 auto;
+  position:relative;
+  font-family:verdana, arial, sans-serif;
+  background-color: teal;
+  border-radius: 20px;
+  padding-left: 28%;
+  padding-top: 20px;
+} 
+
+#gallerywrapper #gallery {
+  position:absolute;
+  
+  height:450px;
+  width:640px;
+  overflow:hidden;
+  text-align:center;
+} 
+
+#gallerywrapper #gallery div {
+  width:640px; height:900px; 
+  padding-top:10px; 
+  position:relative;
+} 
+
+#gallerywrapper #gallery div img {
+  clear:both; 
+  display:block; 
+  margin:0 auto; 
+  border:0;
+  border: 10px solid rgb(253, 116, 92);
+} 
+
+#gallerywrapper #gallery div h3 {
+  padding:10px 0 0 0; 
+  margin:0; 
+  font-size:18px;
+  color: white;
+} 
+
+#gallerywrapper #gallery div p {
+  padding:5px 0; 
+  margin:0; 
+  font-size:12px; 
+  line-height:18px;
+} 
+
+#gallery .previous{ 
+  display:inline;
+  float:left;
+  margin-left:80px;
+  text-decoration:none;
+  color: white;
+  padding: 10px;
+  margin-top: 2px;
+} 
+
+#gallery .previous:hover{
+  background-color: rgb(253, 116, 92);
+  color: white;
+  border-radius: 20px;
+}
+
+#gallery .next{ 
+  display:inline;
+  float:right;
+  margin-right:80px;
+  text-decoration:none;
+  color: white;
+  padding: 10px;
+  margin-top: 2px;
+}
+
+#gallery .next:hover{
+  background-color: rgb(253, 116, 92);
+  color: white;
+  border-radius: 20px;
+}
+
+
+
 footer {color: white; 
     text-align: center;
     background-color: teal;
