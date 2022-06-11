@@ -37,27 +37,26 @@ div.main a:hover {background-color: teal; border-radius: 20px; box-shadow: 5px 5
 
 #gallerywrapper {
   width:auto;
-  height:450px;
+  height:475px;
   margin:0 auto;
   position:relative;
   font-family:verdana, arial, sans-serif;
   background-color: teal;
   border-radius: 20px;
-  padding-left: 28%;
   padding-top: 20px;
 } 
 
 #gallerywrapper #gallery {
   position:absolute;
-  
-  height:450px;
-  width:640px;
-  overflow:hidden;
+  padding-left: 27%;
+  height:500px;
+  width:auto;
+  overflow: hidden;
   text-align:center;
 } 
 
 #gallerywrapper #gallery div {
-  width:640px; height:900px; 
+  width:auto; height:900px; 
   padding-top:10px; 
   position:relative;
 } 
@@ -68,6 +67,7 @@ div.main a:hover {background-color: teal; border-radius: 20px; box-shadow: 5px 5
   margin:0 auto; 
   border:0;
   border: 10px solid rgb(253, 116, 92);
+  width: 300px;
 } 
 
 #gallerywrapper #gallery div h3 {
