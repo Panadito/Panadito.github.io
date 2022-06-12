@@ -1,8 +1,8 @@
 body {background-color: white; font-family:verdana;}
 
-section#banner {background-color: teal; border-radius: 20px; height: 100px; margin-bottom: 15px; width: auto;}
+section#banner {background-color: teal; border-radius: 20px; height: 150px; margin-bottom: 15px; width: auto;}
 
-div.menu {color: rgb(255, 255, 255); padding-top: 15px; padding-left: 15px;}
+div.menu {color: rgb(255, 255, 255); padding-top: 15px; padding-left: 15px; }
 div.menu a {text-decoration: none; color: white;}
 
 ul.icons { padding-left: auto; margin-top: -45px; padding-bottom: 60px; width: auto; height: auto;}
@@ -53,6 +53,7 @@ div.main a:hover {background-color: teal; border-radius: 20px; box-shadow: 5px 5
   width:auto;
   overflow: hidden;
   text-align:center;
+  
 } 
 
 #gallerywrapper #gallery div {
@@ -68,6 +69,12 @@ div.main a:hover {background-color: teal; border-radius: 20px; box-shadow: 5px 5
   border:0;
   border: 10px solid rgb(253, 116, 92);
   width: 300px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
 } 
 
 #gallerywrapper #gallery div h3 {
